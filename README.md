@@ -9,11 +9,11 @@
 -guardar en BD: ver formato 
 
 ### Aprendizaje
--posturas
--coordenadas
--en tiempo tal.
--matriz de confusión
--predicción a partir de secuencias
+- posturas
+- coordenadas
+- en tiempo tal.
+- matriz de confusión
+- predicción a partir de secuencias
 
 ### Reporte
 - se desglosa las poses que obtuvo

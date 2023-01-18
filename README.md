@@ -5,8 +5,8 @@
 - configuracuón del experemiento: parámetros respectivos
 
 ### Experimento
--visual: tracking, zonas, tiempos
--guardar en BD: ver formato 
+- visual: tracking, zonas, tiempos
+- guardar en BD: ver formato 
 
 ### Aprendizaje
 - posturas

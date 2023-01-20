@@ -7,10 +7,14 @@
 - Análisis situacional de la empresa
 - Organización general del documento
 ### Descripción general del producto
-- Perspectiva del producto (Diagrama de contexto, Diagrama de
-despliegue, modelo de dominio)
-- Funciones generales (diagrama de subsistemas o capas de análisis, lista
-de requerimientos funcionales)
+- Perspectiva del producto 
+ - Diagrama de contexto
+ - Diagrama de despliegue
+ - Modelo de dominio
+- Funciones generales 
+ - Diagrama de subsistemas o capas de análisis
+ - Lista de requerimientos funcionales
+
 - Características de usuarios
 - Restricciones y atributos de calidad
 - Suposiciones y dependencias

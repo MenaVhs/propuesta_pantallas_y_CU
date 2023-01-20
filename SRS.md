@@ -4,6 +4,7 @@
 - Propósito
 - Ámbito
 - Definiciones, acrónimos, abreviaciones
+- Análisis situacional de la empresa
 - Organización general del documento
 ### Descripción general del producto
 - Perspectiva del producto (Diagrama de contexto, Diagrama de

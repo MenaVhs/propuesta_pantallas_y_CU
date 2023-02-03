@@ -1,0 +1,9 @@
+@startuml Actores
+ package "Actores"{
+    'Creating Actors
+    actor Usuario as Us
+    actor Modeler as Mo
+    actor Administrador as Ad
+    actor CajaExperimental as Ca
+ }
+@enduml

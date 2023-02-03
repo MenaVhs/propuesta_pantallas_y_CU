@@ -1,0 +1,27 @@
+@startuml Modeler
+left to right direction
+package "Modeler"{
+'Creating Actors
+actor Modeler as Mo
+actor Usuario as U
+' actor Usuario as Us
+rectangle "Sistema"{
+    usecase "CU-1: Cargar y procesar videos" as 1
+    usecase "CU-2: Optener los frames para entrenamiento" as 2
+    usecase "CU-3: Etiquetar frames seleccionados" as 3
+    usecase "CU-4: Entrenar el modelo" as 4
+    usecase "CU-5: Evaluar el modelo" as 5
+    usecase "CU-11: Ingresar y guardar parámetros de la sesión condicional" as 11
+    
+}
+
+}
+Mo --> 1
+Mo --> 2
+Mo --> 3
+Mo --> 4
+Mo --> 5
+11 <-- U
+Mo <. 11: <<extends>>
+
+@enduml

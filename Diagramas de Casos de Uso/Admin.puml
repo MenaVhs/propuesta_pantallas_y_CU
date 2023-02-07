@@ -9,10 +9,13 @@ rectangle "Sistema"{
     usecase "CU-6: Registrar usuarios" as 6
     usecase "CU-7: Registrar especies" as 7    
     usecase "CU-8: Agregar rasgos de la especie a crear" as 8    
+    usecase "CU-16: Registrar sujeto" as 16   
 }
 A--> 6
 A--> 7
 7<--U
 A--> 8
 8<--U
+A-->16
+16<--U
 }

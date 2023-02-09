@@ -3,7 +3,7 @@ left to right direction
 package "Administrador"{
 'Creating Actors
 actor Administrador as A
-actor Usuario as U
+actor Operador as U
 ' actor Usuario as Us
 rectangle "Sistema"{
     usecase "CU-6: Registrar usuarios" as 6

@@ -3,7 +3,7 @@ left to right direction
 package "Modeler"{
 'Creating Actors
 actor Modeler as Mo
-actor Usuario as U
+actor Operador as U
 ' actor Usuario as Us
 rectangle "Sistema"{
     usecase "CU-1: Cargar y procesar videos" as 1

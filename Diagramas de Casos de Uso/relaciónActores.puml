@@ -2,7 +2,7 @@
  package "Relaciones de actores"{
     'Creating Actors
     
-    actor Usuario as Us
+    actor Operador as Us
     actor Modeler as Mo
     actor Administrador as Ad
     actor CajaExperimental as Ca

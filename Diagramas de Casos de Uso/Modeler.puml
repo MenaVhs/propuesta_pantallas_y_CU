@@ -6,12 +6,12 @@ actor Modeler as Mo
 actor Operador as U
 ' actor Usuario as Us
 rectangle "Sistema"{
-    usecase "CU-1: Cargar y procesar videos" as 1
-    usecase "CU-2: Optener los frames para entrenamiento" as 2
-    usecase "CU-3: Etiquetar frames seleccionados" as 3
-    usecase "CU-4: Entrenar el modelo" as 4
-    usecase "CU-5: Evaluar el modelo" as 5
-    usecase "CU-11: Ingresar y guardar parámetros de la sesión condicional" as 11
+    usecase "CUE-1: Cargar y procesar videos" as 1
+    usecase "CUE-2: Optener los frames de entrenamiento" as 2
+    usecase "CUE-3: Etiquetar frames seleccionados" as 3
+    usecase "CUE-4: Entrenar el modelo" as 4
+    usecase "CUE-5: Evaluar el modelo" as 5
+    usecase "CUC-1: Ingresar y guardar parámetros de la sesión condicional" as 11
     
 }
 

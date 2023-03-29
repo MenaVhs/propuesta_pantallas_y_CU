@@ -8,17 +8,17 @@ actor Administrador as Ad
 actor CajaExperimental as Ca
 rectangle "Sistema"{
 
-    usecase "CU-7: Registrar especies" as 7    
-    usecase "CU-8: Agregar rasgos de la especie a crear" as 8    
-    usecase "CU-11: Ingresar y guardar parámetros de la sesión condicional" as 11
-    usecase "CU-12: Asigar el área experimental" as 12  
-    usecase "CU-13: Obtener la aproximación de pose en tiempo real" as 13
-    usecase "CU-14: Accionar evento en caja experimental" as 14
-    usecase "CU-15: Parar sesión de experimentación" as 15
+    usecase "CUP-3: Registrar especies" as 7    
+    usecase "CUP-4: Agregar rasgos de la especie a crear" as 8    
+    usecase "CUC-1: Ingresar y guardar parámetros de la sesión condicional" as 11
+    usecase "CUC-2: Asigar el área experimental" as 12  
+    usecase "CUA-1: Obtener la aproximación de pose en tiempo real" as 13
+    usecase "CUA-3: Parar sesión de experimentación" as 15
 
     'Casos de uso sin un actors
-    usecase "CU-9: Generar reporte de la sesión de experimentación" as 9
-    usecase "CU-10: Transferencia de archivos a PC conectada en la red local" as 10
+    usecase "CUA-2: Accionar evento en caja experimental" as 14
+    usecase "CUR-1: Generar reporte de la sesión de experimentación" as 9
+    usecase "CUR-2: Transferencia de archivos a PC conectada en la red local" as 10
 
 
 }

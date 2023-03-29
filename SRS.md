@@ -8,12 +8,12 @@
 - Organización general del documento
 ### Descripción general del producto
 - Perspectiva del producto 
- - Diagrama de contexto
- - Diagrama de despliegue
- - Modelo de dominio
+1. Diagrama de contexto
+2. Diagrama de despliegue
+3. Modelo de dominio
 - Funciones generales 
- - Diagrama de subsistemas o capas de análisis
- - Lista de requerimientos funcionales
+1. Diagrama de subsistemas o capas de análisis
+2. Lista de requerimientos funcionales
 
 - Características de usuarios
 - Restricciones y atributos de calidad

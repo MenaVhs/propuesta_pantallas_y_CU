@@ -6,10 +6,11 @@ actor Administrador as A
 actor Operador as U
 ' actor Usuario as Us
 rectangle "Sistema"{
-    usecase "CU-6: Registrar usuarios" as 6
-    usecase "CU-7: Registrar especies" as 7    
-    usecase "CU-8: Agregar rasgos de la especie a crear" as 8    
-    usecase "CU-16: Registrar sujeto" as 16   
+    usecase "CUP-1: Registrar usuarios" as 6
+    usecase "CUP-2: Registrar sujeto" as 16   
+    usecase "CUP-3: Registrar especies" as 7    
+    usecase "CUP-4: Agregar rasgos de la especie a crear" as 8    
+    usecase "CUI-2: Registrar un nuevo usuario" as 17   
 }
 A--> 6
 A--> 7
@@ -18,4 +19,6 @@ A--> 8
 8<--U
 A-->16
 16<--U
+17 <-- A
+U --> 17
 }

@@ -12,12 +12,13 @@ rectangle "Sistema"{
     usecase "CUP-4: Agregar rasgos de la especie a crear" as 8    
     usecase "CUC-1: Ingresar y guardar parámetros de la sesión condicional" as 11
     usecase "CUC-2: Asigar el área experimental" as 12  
-    usecase "CUA-1: Obtener la aproximación de pose en tiempo real" as 13
+    usecase "CUC-3: Escalamiento pixel a distancia física" as 16  
+    usecase "CUA-1: Sensado de pose en tiempo real" as 13
     usecase "CUA-3: Parar sesión de experimentación" as 15
 
     'Casos de uso sin un actors
     usecase "CUA-2: Accionar evento en caja experimental" as 14
-    usecase "CUR-1: Generar reporte de la sesión de experimentación" as 9
+    usecase "CUR-1: Generar reportes de la sesión de experimentación" as 9
     usecase "CUR-2: Transferencia de archivos a PC conectada en la red local" as 10
 
 
@@ -30,6 +31,7 @@ U --> 11
 U -> 12
 U -> 13
 U -> 15
+U -> 16
 13 .> 14: <<included>>
 13 --> 9
 14 <--- Ca
